@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-search-agent-optimizer:
+    build: .
+    container_name: brandtactics-ai-search-agent-optimizer
+    restart: unless-stopped
+    volumes:
+      - ./reports:/app/reports
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python cli.py --target "https://brandtactics.co.il" --output "reports/geo_audit.json"

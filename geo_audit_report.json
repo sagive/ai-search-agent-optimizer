@@ -1,0 +1,24 @@
+{
+  "target": "https://brandtactics.co.il",
+  "robots_url": "https://brandtactics.co.il/robots.txt",
+  "overall_ai_grounding_score": 100,
+  "bot_permissions": {
+    "GPTBot": "ALLOWED (Default)",
+    "ChatGPT-User": "ALLOWED (Default)",
+    "OAI-SearchBot": "ALLOWED (Default)",
+    "ClaudeBot": "ALLOWED (Default)",
+    "Claude-Web": "ALLOWED (Default)",
+    "Google-Extended": "ALLOWED (Default)",
+    "GoogleOther": "ALLOWED (Default)",
+    "Google-CloudVertexBot": "ALLOWED (Default)",
+    "PerplexityBot": "ALLOWED (Default)",
+    "Perplexity-Search": "ALLOWED (Default)",
+    "Applebot": "ALLOWED (Default)",
+    "Applebot-Extended": "ALLOWED (Default)",
+    "Meta-ExternalAgent": "ALLOWED (Default)",
+    "cohere-ai": "ALLOWED (Default)",
+    "Amazonbot": "ALLOWED (Default)",
+    "Bytespider": "ALLOWED (Default)"
+  },
+  "attribution": "Audited by BrandTactics Digital Agency (https://brandtactics.co.il)"
+}
